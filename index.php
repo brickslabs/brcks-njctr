@@ -19,27 +19,4 @@ for ($i=0; $i < $data; $i++) {
 	else
 		echo $secondsCheck . "</br>";
 }
-
-
-// for ($i=0; $i < $data; $i++) { 
-	
-// 	$availableSeconds = str_pad(mt_rand(0,59), 2, '0', STR_PAD_LEFT);
-// 	//$availableSeconds = str_pad($i, 2, '0', STR_PAD_LEFT);
-	
-// 	if ($dateSeconds == $availableSeconds)
-// 		echo $i . ". TRUE " . $availableSeconds . "</br>";
-// 	else
-// 		echo $i . ". " . $availableSeconds . "</br>";
-// }
-
-
-	// $randValue = mt_rand(1,100);
-	// if ($randValue <= $percentage) {
-	// 	echo "Random value : " . $randValue . "</br>";
-	// 	$data = round($randValue/100 * 60);
-	// 	echo "No seconds : " . $data . "</br>";
-	// 	for ($i=0; $i < $data; $i++) { 
-	// 		echo rand(0,59) . " ";
-	// 	}
-	// 	echo "</br></br>";
-	// }
+		
